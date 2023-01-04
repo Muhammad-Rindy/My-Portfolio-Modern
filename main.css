@@ -86,7 +86,7 @@
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
@@ -148,14 +148,29 @@ h3.lg-heading {
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.5);
   font-weight: 500;
   color: #eece1a;
 }
-
+.work {
+  text-align: center;
+  color: #eece1a;
+  margin-bottom: 15px;
+}
+.job h3 {
+  text-align: center;
+}
+.job h4 {
+  text-align: center;
+  margin-top: 0px;
+}
+.peta {
+  width: 488px;
+  height: 200px;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -255,6 +270,7 @@ main#home h1 {
   margin-top: 1rem;
 }
 .boxes div {
+  text-align: center;
   font-size: 25px;
   border: 3px #fff solid;
   padding: 1.5rem 2.5rem;
@@ -365,14 +381,97 @@ main#home h1 {
     margin-top: 10vh;
   }
   main .lg-heading {
-    margin-top: 1rem;
-    font-size: 5rem;
+    margin-top: 2rem;
+    font-size: 40px;
   }
   .projects {
     grid-template-columns: 1fr;
   }
-}
 
+  h1.lg-heading {
+    font-size: 40px;
+  }
+  h2.sm-heading {
+    font-size: 1rem;
+  }
+
+  .bio h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .bio h5 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .bio p {
+    font-size: 15px;
+  }
+
+  .work {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .job h3 {
+    font-size: 20px;
+  }
+
+  .job h4 {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .work {
+    font-size: 20px;
+    color: #eece1a;
+  }
+  .job ul li {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+  .about-info .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: #eece1a 2px solid;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  .menu-branding .portrait {
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px #eece1a;
+  }
+  .boxes div {
+    text-align: center;
+    font-size: 15px;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out;
+  }
+  .boxes div:hover {
+    padding: 0.5rem 1rem;
+    background: #eece1a;
+    color: #000;
+  }
+  .peta {
+    width: 300px;
+    height: 150px;
+  }
+  .menu .nav-link {
+    font-size: 20px;
+  }
+  .menu-btn .btn-line {
+    width: 20px;
+    height: 2px;
+  }
+}
 .warna {
   color: blue;
 }
